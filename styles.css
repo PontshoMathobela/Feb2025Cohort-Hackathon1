@@ -7,14 +7,14 @@
 
 /* Body Section with Background Image */
 body {
-    font-family: 'Poppins', sans-serif; /* Modern and clean font */
+    font-family: 'Poppins', sans-serif; 
     background-image: url("C:/Users/27698/Pictures/PONTSHO/IMG-20230324-WA0024.jpg");
-    background-size: cover; /* Ensures image covers full viewport */
-    background-repeat: no-repeat; /* Prevents image repetition */
+    background-size: cover; 
+    background-repeat: no-repeat; 
     background-position: center;
-    color: whitesmoke; /* Text contrasts well against background image */
+    color: whitesmoke; 
     line-height: 1.6;
-    overflow-x: hidden; /* Prevents horizontal scrolling */
+    overflow-x: hidden; 
 }
 
 .hero {
@@ -76,12 +76,12 @@ body {
 
 /* Header Section */
 header {
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black for contrast */
+    background-color: rgba(0, 0, 0, 0.7); 
     padding: 20px;
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    color: #ff9800; /* Vibrant orange for the header text */
+    color: #ff9800;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
@@ -91,9 +91,9 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: rgba(0, 0, 0, 0.8); /* Keeps the navbar visible over the background */
+    background: rgba(0, 0, 0, 0.8); 
     padding: 15px 0;
-    position: sticky; /* Stays at the top on scroll */
+    position: sticky;
     top: 0;
     z-index: 999;
 }
@@ -106,7 +106,7 @@ header {
 .navbar ul {
     display: flex;
     list-style: none;
-    gap: 20px; /* Adds spacing between items */
+    gap: 20px; 
 }
 
 .navbar ul li {
@@ -121,7 +121,7 @@ header {
 }
 
 .navbar ul li a:hover {
-    color: #00e676; /* Vibrant green on hover */
+    color: #00e676;
 }
 
 /* Main Content Styling */
@@ -136,20 +136,20 @@ main {
 
 /* Section Styling */
 section {
-    background: rgba(255, 255, 255, 0.9); /* Adds a white overlay */
+    background: rgba(255, 255, 255, 0.9);
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
     margin: 20px auto;
     width: 90%;
-    max-width: 800px; /* Prevents section from being too wide */
-    color: #333; /* Dark text for readability */
+    max-width: 800px; 
+    color: #333; 
 }
 
 /* Headings Styling */
 h1 {
     font-size: 2.2rem;
-    color: #4a148c; /* Deep purple for headings */
+    color: #4a148c; 
     margin-bottom: 15px;
     text-transform: uppercase;
 }
@@ -195,7 +195,7 @@ form button {
 }
 
 form button:hover {
-    background-color: #00e676; /* Green hover for buttons */
+    background-color: #00e676; 
 }
 
 /* Footer */
